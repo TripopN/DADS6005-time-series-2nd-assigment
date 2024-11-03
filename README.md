@@ -1,5 +1,5 @@
-# DADS6005-time-series-1st-assignment
-1st Assignment - Moving Average &amp; Simple Expo Smoothing.Try to answer what is the best model (lower forecast error).
+# DADS6005-time-series-2nd-assignment
+2nd Assignment - Moving Average &amp; Simple Expo Smoothing.Try to answer what is the best model (lower forecast error).
 Here is a config of model fitting.
     1. {'trend': 'add', 'seasonal': 'add'}
     2. {'trend': 'add', 'seasonal': 'mul'}
