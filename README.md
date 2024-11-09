@@ -10,7 +10,7 @@ Here is a config of model fitting.
 This model uses an additive trend and additive seasonality. While it provides a reasonable forecast, its MAE and MSE are higher than some of the other models, indicating that it may not capture the data patterns as well.
 
 **2.Model (trend=add, seasonal=mul): MAE = 222.19, MSE = 73579.47**
-This model uses an additive trend and multiplicative seasonality. It performs slightly worse than the first model, with higher MAE and MSE values, indicating that this configuration may not be ideal for your data.
+This model uses an additive trend and multiplicative seasonality. It performs slightly worse than the first model, with higher MAE and MSE values, indicating that this configuration may not be ideal for data.
 
 **3.Model (trend=mul, seasonal=add): MAE = 123.92, MSE = 24785.76**
 This model uses a multiplicative trend and additive seasonality. It performs significantly better than the additive trend models, with much lower MAE and MSE values. This suggests that using a multiplicative trend helps in capturing the data's underlying pattern more accurately.
@@ -19,4 +19,4 @@ This model uses a multiplicative trend and additive seasonality. It performs sig
 This model, which uses both multiplicative trend and multiplicative seasonality, has the lowest MAE and MSE among all models, indicating that it provides the most accurate forecast.
 
 **Conclusion**
-The model with multiplicative trend and multiplicative seasonality (trend=mul, seasonal=mul) provides the best forecast for your data, as it has the lowest MAE (102.32) and MSE (15637.04). This suggests that both the trend and seasonal components of your data are better represented by a multiplicative approach, which may capture variations in both trend and seasonality more effectively. This model would be the best choice based on your forecast accuracy criteria.
+The model with multiplicative trend and multiplicative seasonality (trend=mul, seasonal=mul) provides the best forecast for your data, as it has the lowest MAE (102.32) and MSE (15637.04). This suggests that both the trend and seasonal components of data are better represented by a multiplicative approach, which may capture variations in both trend and seasonality more effectively. This model would be the best choice based on forecast accuracy criteria.
